@@ -1,15 +1,15 @@
 ---
 home: true
-heroText: VuePress模板
-tagline: 模板 · 主题 · 插件
+heroText: DOAM生存服文档
+tagline: 钻石大陆 · 粘液科技 · 趣味插件
 actionText: 快速上手 →
 actionLink: /guide/
 features:
-- title: 模板
-  details: 丰富的模板
-- title: 主题
-  details: 自定义主题
-- title: 插件
-  details: 多种插件
-footer: MIT Licensed | Copyright © 2020-present OpenHacking
+- title: 钻石大陆
+  details: 拥有无尽的钻石
+- title: 粘液科技
+  details: 拥有超多的内容
+- title: 趣味插件
+  details: 拥有趣味的玩法
+DIAM Server | Copyright © 2023-2024 zip8919
 ---
