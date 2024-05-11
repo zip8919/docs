@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: DOAM生存服文档
+heroText: DIAM生存服文档
 tagline: 钻石大陆 · 粘液科技 · 趣味插件
 actionText: 快速上手 →
 actionLink: /guide/
