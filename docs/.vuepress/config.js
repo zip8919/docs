@@ -19,7 +19,7 @@ module.exports = {
     ['qrcode',{
       // "/" and "/zh/" correspond to the path set by locales
         labelText: {
-          "/": "本页面二维码", 
+          "/": "页面二维码", 
           "/en/": "QRcode",
         },
         size:'small',
