@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           # 选择要使用的 node 版本
-          node-version: 18
+          node-version: 8.6
           # 缓存 pnpm 依赖
           cache: pnpm
 
@@ -49,3 +49,7 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          TARGET_REPO: zip8919/docs
+          TARGET_BRANCH: master
+          BUILD_SCRIPT: pnpm && yarn docs:build
+          BUILD_DIR: docs/.vuepress/dist
