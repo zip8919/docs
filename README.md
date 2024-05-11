@@ -1,6 +1,6 @@
 <div align="center">
 
-Vuepress Template
+Vuepress Template t
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/openHacking/vuepress-template?style=flat-square)
 [![GitHub license](https://img.shields.io/github/license/openHacking/vuepress-template?style=flat-square)](https://github.com/openHacking/vuepress-template)
