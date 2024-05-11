@@ -11,5 +11,5 @@ features:
   details: 拥有超多的内容
 - title: 趣味插件
   details: 拥有趣味的玩法
-DIAM Server | Copyright © 2023-2024 zip8919
+footer: Copyright © 2023-2024 DIAM Server
 ---
