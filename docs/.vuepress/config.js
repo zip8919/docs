@@ -66,8 +66,7 @@ module.exports = {
           '/guide/': [
             '',
             'theme',
-            'plugin',
-            'Slimefun'
+            'Slimefun',
             'about' 
           ],
           '/resource/': [],
