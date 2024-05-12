@@ -9,7 +9,7 @@ module.exports = {
       title: 'DIAM生存服文档',
       description: 'DIAM生存服，这是一段介绍',
       head: [
-        ['link', { rel: 'icon', href: '/icon.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
+        ['link', { rel: 'icon', href: 'https://www.diams.icu/static/picture/icon.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
       ],
     },
     '/en/': {
@@ -32,7 +32,7 @@ module.exports = {
   ],
   themeConfig: {
     subSidebar: 'auto',
-    logo: '/icon.png',
+    logo: 'https://www.diams.icu/static/picture/icon.png',
     lastUpdated: '上次更新',
     repo: 'zip8919/docs', // 你的 GitHub 仓库地址
     docsRepo: 'zip8919/docs', // 文档所在的仓库地址
