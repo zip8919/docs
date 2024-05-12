@@ -31,7 +31,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
-    logo: '/icon.jpg',
+    logo: '/icon.png',
     lastUpdated: 'Last Updated',
     locales: {
       '/': {
