@@ -3,6 +3,7 @@ import { qrcode } from 'qrcode'
 import { defineUserConfig } from 'vuepress'
 import { socialSharePlugin } from 'vuepress-plugin-social-share'
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 
 export default defineUserConfig({
   plugins: [socialSharePlugin(networks: ['qq', 'wechat', 'email', 'weibo', 'qrcode'],)],
@@ -29,6 +30,9 @@ export default {
     mdEnhancePlugin({
       // 开启标记
       mark: true,
+    }),
+    copyCodePlugin({
+      // 配置项
     }),
   ],
 }
