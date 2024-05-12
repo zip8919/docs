@@ -1,3 +1,4 @@
 git add .
-git commit -m "本地提交"
+git commit -m "push"
 git push
+pause

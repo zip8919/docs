@@ -1,5 +1,6 @@
 module.exports = {
   base: '/./', //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
+  theme: 'reco',
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
