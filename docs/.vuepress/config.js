@@ -31,6 +31,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
+    subSidebar: 'auto',
     logo: '/icon.png',
     lastUpdated: 'Last Updated',
     locales: {
