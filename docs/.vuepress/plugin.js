@@ -3,6 +3,7 @@ const { qrcode } = require('vuepress-plugin-qrcode')
 //const { socialSharePlugin } = require('vuepress-plugin-social-share')
 //const { mdEnhancePlugin } = require("vuepress-plugin-md-enhance");
 //const { copyCodePlugin } = require('@vuepress/plugin-copy-code')
+const { readingTimePlugin } require('@vuepress/plugin-reading-time')
 
 module.exports = {
   plugins: [
@@ -14,6 +15,9 @@ module.exports = {
         },
         size:'small',
         channel:true
+    }),
+    readingTimePlugin({
+      // 配置项
     }),
     //socialSharePlugin({
       //networks: ['qq', 'wechat', 'email', 'weibo', 'qrcode'],
