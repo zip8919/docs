@@ -1,4 +1,4 @@
-npm install -g vuepress-theme-thindark
+npm i @ikangxu/vuepress-plugin-share -D
 npm install vuepress-plugin-social-share -D
 npm install vuepress-plugin-code-copy
 npm i vuepress-plugin-reading-progress
