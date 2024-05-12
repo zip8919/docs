@@ -1,4 +1,4 @@
-import { back_to_top } from '@vuepress/back-to-top'
+import { backtotop } from '@vuepress/back-to-top'
 import { qrcode } from 'qrcode'
 import { defineUserConfig } from 'vuepress'
 import { socialSharePlugin } from 'vuepress-plugin-social-share'
@@ -10,7 +10,7 @@ export default defineUserConfig({
 
 export default {
   plugins: [
-    back_to_top(),
+    backtotop(),
     qrcode({
         // "/" and "/zh/" correspond to the path set by locales
         labelText: {
