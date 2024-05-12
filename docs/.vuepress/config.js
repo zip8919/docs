@@ -32,6 +32,10 @@ module.exports = {
     '@vuepress/last-updated',
     '@vuepress/active-header-links',
     '@vuepress/nprogress',
+    'vuepress-plugin-reading-time',
+    ['vuepress-plugin-code-copy', true],
+    'reading-progress',
+    'social-share'
   ],
   themeConfig: {
     subSidebar: 'auto',
