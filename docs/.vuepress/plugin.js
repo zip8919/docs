@@ -2,6 +2,7 @@ import { back_to_top } from '@vuepress/back-to-top'
 import { qrcode } from 'qrcode'
 import { defineUserConfig } from 'vuepress'
 import { socialSharePlugin } from 'vuepress-plugin-social-share'
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default defineUserConfig({
   plugins: [socialSharePlugin(networks: ['qq', 'wechat', 'email', 'weibo', 'qrcode'],)],
@@ -24,6 +25,10 @@ export default {
     }),
     catalogPlugin({
       // 配置项
+    }),
+    mdEnhancePlugin({
+      // 开启标记
+      mark: true,
     }),
   ],
 }
