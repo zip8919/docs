@@ -6,7 +6,7 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: 'DIAM生存服',
+      title: 'DIAM生存服文档',
       description: 'DIAM生存服，这是一段介绍',
       head: [
         ['link', { rel: 'icon', href: 'https://www.diams.icu/static/picture/icon.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
