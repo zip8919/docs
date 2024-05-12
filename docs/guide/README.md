@@ -5,7 +5,7 @@ description: 了解如何下载Minecraft并加入我们的服务器。
 
 # 加入DIAM生存服务器
 
-欢迎来到DIAM生存服！在这里，你可以与朋友一起探索、建造和冒险；在钻石大陆尽情开采钻石；游玩[粘液科技](/Slimefun)、[mcMMO](https://docs.diams.icu/guide/theme.html)等插件。以下是下载Minecraft并加入我们的服务器的步骤。
+欢迎来到DIAM生存服！在这里，你可以与朋友一起探索、建造和冒险；在钻石大陆尽情开采钻石；游玩[粘液科技](/guide/Slimefun)、[mcMMO](/guide/theme.html)等插件。以下是下载Minecraft并加入我们的服务器的步骤。
 
 ## 下载Minecraft
 
@@ -36,7 +36,7 @@ description: 了解如何下载Minecraft并加入我们的服务器。
 4. 在 `服务器名称`栏中**输入**你喜欢的名称（例如：`DIAM生存服`）
 5. 在 `服务器地址`栏中**输入**我们的服务器地址 `java.diams.icu`
    ::: tip
-   你可以在[关于](/about)找到我们的服务器地址
+   你可以在[关于](/guide/about)找到我们的服务器地址
    :::
 6. **点击** `完成`保存服务器信息
 7. 在服务器列表中找到我们的服务器，**点击** `加入服务器`
