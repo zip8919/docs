@@ -6,7 +6,7 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: 'DIAM生存服文档',
+      title: 'DIAM生存服',
       description: 'DIAM生存服，这是一段介绍',
       head: [
         ['link', { rel: 'icon', href: 'https://www.diams.icu/static/picture/icon.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
@@ -59,7 +59,7 @@ module.exports = {
         nav: [
           { text: '指南', link: '/guide/', ariaLabel: '指南' },
           { text: '官网', link: 'https://www.diams.icu', ariaLabel: '官网' },
-	  { text: 'QQ群', link: 'https://www.diams.icu/' }
+	        { text: 'QQ群', link: 'https://qm.qq.com/q/xgTfPgytGg' }
         ],
         sidebar: {
           '/guide/': [
