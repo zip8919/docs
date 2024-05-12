@@ -6,7 +6,10 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'DIAM生存服文档',
-      description: 'DIAM生存服，这是一段介绍'
+      description: 'DIAM生存服，这是一段介绍',
+      head: [
+        ['link', { rel: 'icon', href: '/icon.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
+      ],
     },
     '/en/': {
       lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
@@ -27,7 +30,8 @@ module.exports = {
     }]
   ],
   themeConfig: {
-
+    logo: '/icon.jpg',
+    lastUpdated: 'Last Updated',
     locales: {
       '/': {
         // 多语言下拉菜单的标题
