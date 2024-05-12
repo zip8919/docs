@@ -1,4 +1,4 @@
-npx @vuepress-reco/theme-cli init
+npm install vuepress-theme-reco --save-dev
 npm install vuepress-plugin-social-share -D
 npm install vuepress-plugin-code-copy
 npm i vuepress-plugin-reading-progress
