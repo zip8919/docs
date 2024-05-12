@@ -59,7 +59,7 @@ module.exports = {
         ],
         sidebar: {
           '/guide/': [
-            '',
+	    'simpfun',
             'theme',
             'Slimefun',
             'about' 
