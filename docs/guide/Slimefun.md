@@ -1,3 +1,9 @@
+---
+title: Slimefun 插件深度介绍
+author: baicaizhale
+date: '2024-5-12'
+---
+
 # Slimefun 插件深度介绍
 
 ## 什么是Slimefun？
