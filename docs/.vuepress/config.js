@@ -13,7 +13,7 @@ module.exports = {
       ],
     },
     '/en/': {
-      lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+      lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
       title: 'VuePress Template',
       description: 'VuePress template, theme, and plugin Demo. The purpose is that users can directly clone this repository as a startup project for initializing a VuePress website, and then add custom configurations and functions based on this project.'
     }
