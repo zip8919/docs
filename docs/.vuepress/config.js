@@ -33,7 +33,11 @@ module.exports = {
   themeConfig: {
     subSidebar: 'auto',
     logo: '/icon.png',
-    lastUpdated: 'Last Updated',
+    lastUpdated: '上次更新',
+    repo: 'zip8919/docs', // 你的 GitHub 仓库地址
+    docsRepo: 'zip8919/docs', // 文档所在的仓库地址
+    docsDir: 'docs', // 文档目录
+    docsBranch: 'main', // 文档所在的 Git 分支
     locales: {
       '/': {
         // 多语言下拉菜单的标题
@@ -41,6 +45,7 @@ module.exports = {
         // 该语言在下拉菜单中的标签
         label: '简体中文',
         // 编辑链接文字
+        editLinks: true,
         editLinkText: '在 GitHub 上编辑此页',
         // Service Worker 的配置
         serviceWorker: {
