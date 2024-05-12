@@ -13,11 +13,6 @@ module.exports = {
 	['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
       ],
     },
-    '/en/': {
-      lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
-      title: 'VuePress Template',
-      description: 'VuePress template, theme, and plugin Demo. The purpose is that users can directly clone this repository as a startup project for initializing a VuePress website, and then add custom configurations and functions based on this project.'
-    }
   },
   plugins: [
     '@vuepress/back-to-top',
@@ -79,32 +74,6 @@ module.exports = {
           '/resource/': [],
         }
       },
-      '/en/': {
-        selectText: 'Languages',
-        label: 'English',
-        ariaLabel: 'Languages',
-        editLinkText: 'Edit this page on GitHub',
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        },
-        algolia: {},
-        nav: [
-          { text: 'Guide', link: '/guide/', ariaLabel: 'Guide' },
-          { text: 'Study', link: 'https://lwebapp.com', ariaLabel: 'Study' },
-					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
-        ],
-        sidebar: {
-          '/guide/': [
-            '',
-            'theme',
-            'plugin'
-          ],
-          '/resource/': [],
-        }
-      }
     }
   },
 }
