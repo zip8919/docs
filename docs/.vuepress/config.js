@@ -24,7 +24,7 @@ module.exports = {
     ['vuepress-plugin-code-copy', true],
     'reading-progress',
     //'social-share',
-    ['@ikangxu/vuepress-plugin-share', {supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']}]
+    //['@ikangxu/vuepress-plugin-share', {supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']}]
   ],
   themeConfig: {
     subSidebar: 'auto',
