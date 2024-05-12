@@ -1,3 +1,4 @@
+
 module.exports = {
   base: '/./', //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
   //theme: '@vuepress-theme-reco',
@@ -67,6 +68,7 @@ module.exports = {
             'theme',
             'plugin',
             'Slimefun'
+            'about' 
           ],
           '/resource/': [],
         }
