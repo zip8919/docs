@@ -1,4 +1,3 @@
-
 module.exports = {
   base: '/./', //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
   //theme: '@vuepress-theme-reco',
@@ -20,16 +19,17 @@ module.exports = {
     }
   },
   plugins: [
-    '@vuepress/back-to-top',
-    ['qrcode',{
+    require('./plugin.js')
+    //'@vuepress/back-to-top',
+    //['qrcode',{
       // "/" and "/zh/" correspond to the path set by locales
-        labelText: {
-          "/": "页面二维码", 
-          "/en/": "QRcode",
-        },
-        size:'small',
-        channel:true
-    }]
+        //labelText: {
+          //"/": "页面二维码", 
+          //"/en/": "QRcode",
+        //},
+        //size:'small',
+        //channel:true
+    //}]  
   ],
   themeConfig: {
     subSidebar: 'auto',
@@ -87,7 +87,7 @@ module.exports = {
         nav: [
           { text: 'Guide', link: '/guide/', ariaLabel: 'Guide' },
           { text: 'Study', link: 'https://lwebapp.com', ariaLabel: 'Study' },
-					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
+					{ text: 'Github', link: 'https://kkgithub.com/openHacking/vuepress-template' }
         ],
         sidebar: {
           '/guide/': [
