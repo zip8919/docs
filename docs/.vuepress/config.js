@@ -23,7 +23,7 @@ module.exports = {
     'vuepress-plugin-reading-time',
     ['vuepress-plugin-code-copy', true],
     'reading-progress',
-    'social-share',
+    //'social-share',
     ['@ikangxu/vuepress-plugin-share', {supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']}]
   ],
   themeConfig: {
