@@ -1,6 +1,6 @@
 module.exports = {
   base: '/./', //目标地址是：https://openhacking.github.io/vuepress-template/，所以需要配置base地址后缀
-  theme: 'thindark',
+  //theme: '',
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -16,22 +16,15 @@ module.exports = {
   },
   plugins: [
     '@vuepress/back-to-top',
-    ['qrcode',{
-      // "/" and "/zh/" correspond to the path set by locales
-        labelText: {
-          "/": "页面二维码", 
-          "/en/": "QRcode",
-        },
-        size:'small',
-        channel:true
-    }],
+    ['qrcode',{labelText: {"/": "页面二维码", "/en/": "QRcode",},size:'small',channel:true}],
     '@vuepress/last-updated',
     '@vuepress/active-header-links',
     '@vuepress/nprogress',
     'vuepress-plugin-reading-time',
     ['vuepress-plugin-code-copy', true],
     'reading-progress',
-    'social-share'
+    'social-share',
+    ['@ikangxu/vuepress-plugin-share', {supports: ['qq-qzone', 'renren', 'douban', 'sina-weibo', 'wechat', 'tieba-baidu', 'qq']}]
   ],
   themeConfig: {
     subSidebar: 'auto',
