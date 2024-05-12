@@ -1,3 +1,8 @@
+---
+title: 关于
+date: "2024-05-12T13:36:55.338Z"
+readingTime: { text: "Not so long!", minutes: 2 }
+---
 # 关于
 
 ## 进入服务器
