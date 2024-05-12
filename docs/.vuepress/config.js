@@ -9,7 +9,8 @@ module.exports = {
       title: 'DIAM生存服文档',
       description: 'DIAM生存服，这是一段介绍',
       head: [
-        ['link', { rel: 'icon', href: 'https://www.diams.icu/static/picture/icon.png' }] // 需要被注入到当前页面的 HTML <head> 中的标签
+        ['link', { rel: 'icon', href: 'https://www.diams.icu/static/picture/icon.png' }],// 需要被注入到当前页面的 HTML <head> 中的标签
+	['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
       ],
     },
     '/en/': {
