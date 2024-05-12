@@ -19,17 +19,19 @@ module.exports = {
     }
   },
   plugins: [
-    require('./plugin.js')
-    //'@vuepress/back-to-top',
-    //['qrcode',{
+    '@vuepress/back-to-top',
+    ['qrcode',{
       // "/" and "/zh/" correspond to the path set by locales
-        //labelText: {
-          //"/": "页面二维码", 
-          //"/en/": "QRcode",
-        //},
-        //size:'small',
-        //channel:true
-    //}]  
+        labelText: {
+          "/": "页面二维码", 
+          "/en/": "QRcode",
+        },
+        size:'small',
+        channel:true
+    }],
+    '@vuepress/last-updated',
+    '@vuepress/active-header-links',
+    '@vuepress/nprogress',
   ],
   themeConfig: {
     subSidebar: 'auto',
@@ -87,7 +89,7 @@ module.exports = {
         nav: [
           { text: 'Guide', link: '/guide/', ariaLabel: 'Guide' },
           { text: 'Study', link: 'https://lwebapp.com', ariaLabel: 'Study' },
-					{ text: 'Github', link: 'https://kkgithub.com/openHacking/vuepress-template' }
+					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
         ],
         sidebar: {
           '/guide/': [
@@ -100,5 +102,4 @@ module.exports = {
       }
     }
   },
-  
 }
