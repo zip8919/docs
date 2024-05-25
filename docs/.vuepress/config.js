@@ -63,7 +63,8 @@ module.exports = {
 	    'simpfun',
             'theme',
             'Slimefun',
-            'about' 
+            'about' ,
+            'flys'
           ],
           '/resource/': [],
         }
